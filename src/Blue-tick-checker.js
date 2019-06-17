@@ -3,7 +3,7 @@ export default function playerHasBlueTick(userData) {
         return false;
     } else if(userData.currentTask < 24) {
         return false;
-    } else if(userData.haveAvatar === false) {
+    } else if(userData.hasAvatar === false) {
         return false;
     } else {
         return true;
